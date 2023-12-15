@@ -1,0 +1,40 @@
+/* Dashboard.css */
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.page-number {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.page-number.active {
+  background-color: #007bff;
+  color: #fff;
+}
